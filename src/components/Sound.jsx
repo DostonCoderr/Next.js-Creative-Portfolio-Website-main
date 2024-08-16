@@ -87,7 +87,7 @@ const Sound = () => {
       )}
 
       <audio ref={audioRef} loop>
-        <source src={"/audio/Nejno.mp3"} type="audio/mpeg" />
+        <source src={"/audio/Fe!n.mp3"} type="audio/mpeg" />
         your browser does not support the audio element.
       </audio>
       <motion.button
@@ -102,12 +102,12 @@ const Sound = () => {
         {isPlaying ? (
           <Volume2
             className="w-full h-full text-foreground group-hover:text-accent"
-            strokeWidth={1.5 }
+            strokeWidth={1.1 }
           />
         ) : (
           <VolumeX
             className="w-full h-full text-foreground group-hover:text-accent"
-            strokeWidth={1.5}
+            strokeWidth={1.1}
           />
         )}
       </motion.button>

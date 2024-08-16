@@ -1,6 +1,7 @@
 import Image from "next/image";
 import bg from "../../../../public/background/contact-background.png";
 import Form from "@/components/contact/Form";
+import SEO from "@/app/seo";
 
 export const metadata = {
   title: "Contact",
@@ -9,6 +10,10 @@ export const metadata = {
 export default function Contact() {
   return (
     <>
+    <SEO
+      metaTitle={"Doston_Coder | Contact"}
+      metaKeywords={process.env.META_KEYWORDS || ""}
+    >
       <Image
         src={bg}
         alt="Next.js Portfolio website's contact page background image"
@@ -29,6 +34,7 @@ export default function Contact() {
         </div>
         <Form />
       </article>
+      </SEO>
     </>
   );
 }

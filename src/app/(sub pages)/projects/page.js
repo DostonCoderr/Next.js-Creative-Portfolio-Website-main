@@ -5,6 +5,7 @@ import { projectsData } from "../../data";
 import RenderModel from "@/components/RenderModel";
 // import Staff from "@/components/models/Staff";
 import dynamic from "next/dynamic";
+import SEO from "@/app/seo";
 
 const Staff = dynamic(() => import("@/components/models/Staff"), {
   ssr: false,
@@ -17,6 +18,10 @@ export const metadata = {
 export default function Home() {
   return (
     <>
+    <SEO
+      metaTitle={"Doston_Coder | Projects"}
+      metaKeywords={process.env.META_KEYWORDS || ""}
+    >
       <Image
         src={bg}
         alt="Next.js Portfolio website's about page background image"
@@ -32,6 +37,7 @@ export default function Home() {
           <Staff />
         </RenderModel>
       </div>
+      </SEO>
     </>
   );
 }

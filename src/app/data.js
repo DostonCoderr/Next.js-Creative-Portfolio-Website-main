@@ -33,10 +33,10 @@ export const projectsData = [
   },
   {
     id: 3,
-    name: "Shopper",
+    name: "Anime Hub",
     description: "Plan and track expenses",
-    date: "2023-09-10",
-    demoLink: "https://ai-builder.mobirise.com/pages/KR3mCrk5s_ofs_mYBL5bD#",
+    date: "2024-07-10",
+    demoLink: "https://animehub-inky.vercel.app/",
   },
   {
     id: 4,
@@ -47,10 +47,10 @@ export const projectsData = [
   },
   {
     id: 5,
-    name: "LAtinka",
-    description: "Online Hudi SHope Uz",
-    date: "2023-07-12",
-    demoLink: "https://65b680f8c23cc3835a29b9df--dazzling-lamington-de497e.netlify.app/",
+    name: "Crypto Telegram Web App",
+    description: "Hamster Combat Web app",
+    date: "2024-06-12",
+    demoLink: "https://hamster-crypto.vercel.app/",
   },
   {
     id: 6,
@@ -61,10 +61,10 @@ export const projectsData = [
   },
   {
     id: 7,
-    name: "StudyBuddy",
+    name: "Spotify ",
     description: "Collaborative learning platform",
     date: "2024-03-05",
-    demoLink: "https://studybuddy.example.com",
+    demoLink: "https://spotify-clone-fk57pjbgy-doston1232696s-projects.vercel.app/",
   },
   {
     id: 8,

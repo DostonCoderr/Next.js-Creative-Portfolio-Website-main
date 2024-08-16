@@ -5,12 +5,17 @@ import RenderModel from "@/components/RenderModel";
 import Navigation from "@/components/navigation";
 
 import dynamic from "next/dynamic";
+import SEO from "./seo";
 const Wizard = dynamic(() => import("@/components/models/Wizard"), {
   ssr: false,
 });
 
 export default function Home() {
   return (
+    <SEO
+    metaTitle={"Doston_Coder | Home"}
+      metaKeywords={process.env.META_KEYWORDS || ""}
+    >
     <main className="flex min-h-screen flex-col items-center justify-between relative">
       <Image
         priority
@@ -28,5 +33,6 @@ export default function Home() {
         </RenderModel>
       </div>
     </main>
+    </SEO>
   );
 }

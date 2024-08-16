@@ -4,6 +4,7 @@ import RenderModel from "@/components/RenderModel";
 // import HatModel from "@/components/models/HatModel";
 import AboutDetails from "@/components/about";
 import dynamic from "next/dynamic";
+import SEO from "@/app/seo";
 const HatModel = dynamic(() => import("@/components/models/HatModel"), {
   ssr: false,
 });
@@ -15,6 +16,10 @@ export const metadata = {
 export default function Home() {
   return (
     <>
+     <SEO
+      metaTitle={"Doston_Coder | About"}
+      metaKeywords={process.env.META_KEYWORD_ABOUT || ""}
+    >
       <Image
         src={bg}
         priority
@@ -41,6 +46,7 @@ export default function Home() {
       </div>
 
       <AboutDetails />
+      </SEO>
     </>
   );
 }
