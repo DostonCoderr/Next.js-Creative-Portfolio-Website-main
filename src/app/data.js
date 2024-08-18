@@ -68,10 +68,10 @@ export const projectsData = [
   },
   {
     id: 8,
-    name: "TechTalk",
+    name: "Health-Care",
     description: "Tech news aggregator",
     date: "2024-03-25",
-    demoLink: "https://techtalk.example.com",
+    demoLink: "https://health-care.dostoncoder.uz/",
   },
   {
     id: 9,
