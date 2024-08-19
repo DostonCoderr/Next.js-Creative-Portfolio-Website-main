@@ -23,8 +23,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-//     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N79TVN5G"
-// height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <body
         className={clsx(
           inter.variable,
