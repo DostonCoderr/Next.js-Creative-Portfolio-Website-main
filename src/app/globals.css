@@ -30,3 +30,12 @@
     transform: translate(100px, 100px);
   }
 }
+
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(254, 254, 91, 0.3);
+  border-radius: 10px;
+}
